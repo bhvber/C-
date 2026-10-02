@@ -9,7 +9,7 @@ int main() {
     SetConsoleCP(65001);
     SetConsoleOutputCP(65001);
 
-    // 1. Поиск символа в строке
+    
     string str = "hello world";
     char search_char;
     cout << "Строка: " << str << endl;
@@ -28,7 +28,7 @@ int main() {
         cout << "Строка не содержит этот символ" << endl;
     }
 
-    // 2. Сортировка массива и поиск
+    
     int arr[10];
     cout << "\nВведите 10 чисел массива:" << endl;
     for (int i = 0; i < 10; i++) {
@@ -36,7 +36,7 @@ int main() {
         cin >> arr[i];
     }
 
-    sort(arr, arr + 10); // Сортировка по возрастанию
+    sort(arr, arr + 10); 
 
     int target;
     cout << "\nВведите число для поиска в массиве: ";

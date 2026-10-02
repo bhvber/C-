@@ -12,12 +12,12 @@ int main() {
     cout << "Введите число для записи в файл: ";
     cin >> num;
 
-    // Запись в первый файл
+    
     ofstream f1("primer1.txt");
     f1 << num;
     f1.close();
 
-    // Чтение из первого файла и запись 50% во второй
+    
     ifstream in1("primer1.txt");
     if (in1 >> num) {
         ofstream f2("primer2.txt");

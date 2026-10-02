@@ -1,6 +1,6 @@
 #include <iostream>
 #include <cmath>
-#include <windows.h> // Подключаем библиотеку для настройки кодировки консоли
+#include <windows.h> 
 
 using namespace std;
 
@@ -9,7 +9,7 @@ double computeFunction(double x) {
 }
 
 int main() {
-    // Включаем UTF-8 для консоли Windows
+
     SetConsoleCP(65001);
     SetConsoleOutputCP(65001);
 

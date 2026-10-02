@@ -7,7 +7,7 @@ int main() {
     SetConsoleCP(65001);
     SetConsoleOutputCP(65001);
 
-    // Создание динамического массива из 6 элементов
+    
     int* arr = new int[6];
 
     cout << "Введите 6 чисел:" << endl;
@@ -16,7 +16,7 @@ int main() {
         cin >> arr[i];
     }
 
-    // Меняем местами соседние элементы (0 и 1, 2 и 3, 4 и 5)
+    
     for (int i = 0; i < 6; i += 2) {
         int temp = arr[i];
         arr[i] = arr[i + 1];
@@ -29,6 +29,6 @@ int main() {
     }
     cout << endl;
 
-    delete[] arr; // Освобождаем память
-    return 0;
+    delete[] arr; 
+    return 0
 }
